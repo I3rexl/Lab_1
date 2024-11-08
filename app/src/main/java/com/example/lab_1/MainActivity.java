@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         mAuth= FirebaseAuth.getInstance();
 
 
-        String email= "hoanganh1109@gmail.com";
+        String email= "hoanganh0108@gmail.com";
         String pass= "MD19303@";
 
         mAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
